@@ -1,16 +1,20 @@
 @charset "UTF-8";
 -@font-face {
-    font-family: "mulish", helvetica neue, arial, sans-serif;
-    src: url(/css/media/media/Mulish-VariableFont_wght.ttf);
+    /*font-family: "mulish", helvetica neue, arial, sans-serif;
+    src: url(/css/media/media/Mulish-VariableFont_wght.ttf);*/
+    font-family: "Times New Roman", Times, serif;/*changed*/
 }
 -@font-face {
-    font-family: "mulish", helvetica neue, arial, sans-serif;
+    /*font-family: "mulish", helvetica neue, arial, sans-serif;
     font-style: italic;
-    src: url(/css/media/media/Mulish-Italic-VariableFont_wght.ttf);
+    src: url(/css/media/media/Mulish-Italic-VariableFont_wght.ttf);*/
+    font-family: "Times New Roman", Times, serif;/*changed*/
+    font-style: italic;
 }
 -@font-face {
-    font-family:"Comfortaa", sans-serif;
-    src : url(../fonts/media/Comfortaa-VariableFont_wght.ttf);
+    /*font-family: "Comfortaa", sans-serif;
+    src : url(../fonts/media/Comfortaa-VariableFont_wght.ttf);*/
+    font-family: Garamond, serif;/*changed*/
 }
 
 @page {
@@ -34,7 +38,8 @@
   @top-right { content: normal;}
   @top-center {
     content: env(doc-title);
-    font-family:"Comfortaa", sans-serif;
+    /*font-family: "Comfortaa", sans-serif;*/
+    font-family: Garamond, serif;/*changed*/
     font-weight: 700;
     font-size: 40pt;
     color: blue;
@@ -49,7 +54,8 @@
   margin-right: 20mm;
   @top-left {
     content: env(doc-title);
-    font-family: "Mulish", helvetica neue, arial, sans-serif;
+    /*font-family: "Mulish", helvetica neue, arial, sans-serif;*/
+    font-family: "Times New Roman", Times, serif;/*changed*/
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -65,7 +71,8 @@
   }
   @bottom-left {
     content: counter(page);
-    font-family: "Mulish", helvetica neue, arial, sans-serif;
+    /*font-family: "Mulish", helvetica neue, arial, sans-serif;*/
+    font-family: "Times New Roman", Times, serif;/*changed*/
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -78,7 +85,8 @@
   margin-right: 15mm;
   @top-right {
      content: env(doc-title); /*env(pub-title)*/
-     font-family: "Mulish", helvetica neue, arial, sans-serif;
+     /*font-family: "Mulish", helvetica neue, arial, sans-serif;*/
+     font-family: "Times New Roman", Times, serif;/*changed*/
      font-weight: normal;
      font-style: italic;
      font-size: 9pt;
@@ -94,7 +102,8 @@
   }
   @bottom-right {
     content: counter(page);
-    font-family: "Mulish", helvetica neue, arial, sans-serif;
+    /*font-family: "Mulish", helvetica neue, arial, sans-serif;*/
+    font-family: "Times New Roman", Times, serif;/*changed*/
     font-weight: normal;
     font-style: italic;
     font-size: 9pt;
@@ -229,10 +238,11 @@ body {
 }
 
 html {
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  /*font-family: "Mulish", helvetica neue, arial, sans-serif;*/
+  font-family: "Times New Roman", Times, serif;/*changed*/
   font-weight: normal;
-  font-size: 10.75pt;
-  color: black;
+  font-size: 12pt;/*changed*/
+  color: #000066;/*changed*/
    /*-text-rendering: optimizeLegibility;
    webkit-font-smoothing: antialiased;*/
     hyphens: auto;
@@ -253,7 +263,7 @@ nav li a {
   color: currentColor;
   align-items: baseline;
   border: none;
-  font-size: 9pt;
+  font-size: 10pt;/*changed*/
 }
 nav li a::before {
   margin-right: 0.5em;
@@ -280,9 +290,10 @@ nav li a::after {
 }
 
 .article-title {
-  font-family:"Comfortaa", sans-serif;
-  font-size: 24pt; /* 2.233rem */
-  color: #000;
+  /*font-family:"Comfortaa", sans-serif;*/
+  font-family: Garamond, serif;/*changed*/
+  font-size: 26pt; /* 2.233rem */ /*changed*/
+  color: #000033; /*changed*/
   margin-bottom: 4em;
   margin-top: 2em;
   page-break-inside: avoid;
@@ -294,7 +305,7 @@ nav li a::after {
   letter-spacing: 0pt;
   word-spacing: 1px;
   font-weight: 600;
-  line-height: 1.6;
+  line-height: 1.8;/*changed*/
 }
 
 .article-title strong { font-weight: normal;}
@@ -324,7 +335,8 @@ nav li a::after {
   word-spacing: 1px;
 }*/
 .csl-entry, .fnlist p {
-  font-family: "Mulish", sans-serif;
+  /*font-family: "Mulish", sans-serif;*/
+  font-family: "Times New Roman", Times, serif;/*changed*/
   font-size:  9.5pt;
   line-height: 15pt;
   margin-bottom: 9pt;
@@ -387,15 +399,17 @@ nav li a::after {
 }
 
 .logo p {
- color: black;
- font-family: Comfortaa", sans-serif;
+ color: #000066;/*changed*/
+ /*font-family: Comfortaa", sans-serif;*/
+  font-family: Garamond, serif;/*changed*/
   font-size: 8pt;
   font-weight: 300;
   text-align: center;
 }
 .logo2 p {
- color: black;
- font-family: "Comfortaa", helvetica neue, arial, sans-serif;
+ color: #000066;/*changed*/
+ /*font-family: "Comfortaa", helvetica neue, arial, sans-serif;*/
+ font-family: Garamond, serif;
   font-size: 8pt;
   line-height: 12pt;
   font-weight: 300;
@@ -405,8 +419,9 @@ nav li a::after {
 
 
 p {
-  font-family: Comfortaa", sans-serif;
-  font-size:  9.5pt; /* 0.8837rem */
+  /*font-family: Comfortaa", sans-serif;*/
+  font-family: Garamond, serif;
+  font-size:  10pt; /* 0.8837rem */ /*changed*/
   line-height: 15pt; /* 1.3954rem */
   margin-bottom: 0pt;
   letter-spacing: 0.2pt;
@@ -431,7 +446,8 @@ p:first-of-type {
 }
 
 .Kolophon p {
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  /*font-family: "Mulish", helvetica neue, arial, sans-serif;*/
+  font-family: "Times New Roman", Times, serif;/*changed*/
   font-size:8pt;
 }
 
@@ -449,7 +465,7 @@ p.divide { text-align: center }
 
 
 p.author , .author {
-  color: black;
+  color: #000066;/*changed*/
   font-size: 14pt;
   font-weight: normal;
   text-align: center;
@@ -459,7 +475,7 @@ p.author , .author {
 }
 
 p.copyright {
-  font-size: 9.75pt;
+  font-size: 10pt;/*changed*/
   text-align: left;
 }
 
@@ -478,7 +494,8 @@ table li strong,
 table li .bold,
 table li .Bold,
 table li b {
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  /*font-family: "Mulish", helvetica neue, arial, sans-serif;*/
+  font-family: "Times New Roman", Times, serif;/*changed*/
   font-weight: 700;
 }
 
@@ -494,13 +511,13 @@ pre {
 }
 
 a, .csl-bib-body a {
-  color: #000;
+  color: #000033;/*changed*/
   text-decoration: none !important;
-  border-bottom: 1px dashed rgb(101,100,98);
+  border-bottom: 1px dashed rgb(102,102,153);/*changed*/
 }
 
 a:hover {
-  border-bottom: 1px solid rgb(101,100,98);
+  border-bottom: 1px solid rgb(102,102,153);/*changed*/
 }
 
 strong em {
@@ -509,7 +526,8 @@ strong em {
 }
 
 var {
-  font-family: "Comfortaa", helvetica neue, arial, sans-serif;
+  /*font-family: "Comfortaa", helvetica neue, arial, sans-serif;*/
+  font-family: Garamond, serif;/*changed*/
   font-weight: normal;
 }
 
@@ -528,15 +546,16 @@ sup {
 }
 
 .references p {
-  line-height: 10.8pt;
-  font-size: 9pt;
+  line-height: 10.75pt;
+  font-size: 9.5pt;/*changed*/
 }
 
 blockquote {
   display: block;
   width: 80%;
   position: relative;
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  /*font-family: "Mulish", helvetica neue, arial, sans-serif;*/
+  font-family: "Times New Roman", Times, serif;/*changed*/
   font-size:  11pt; /* 1.023rem */
   vertical-align: baseline;
   margin-top: 9pt;
@@ -548,14 +567,15 @@ blockquote {
 }
 
 blockquote:before {
-  font-family: Comfortaa", sans-serif;
+  /*font-family: Comfortaa", sans-serif;*/
+  font-family: Garamond, serif;/*changed*/
   content: "“";
   font-size: 4em;
   left: -45px;
   top: -10px;
   z-index: 5;
   position: absolute;
-  color: #000;
+  color: #000033;/*changed*/
   opacity: 0.8;
 }
 
@@ -572,9 +592,10 @@ blockquote strong {
 blockquote  p.att { text-align: right; }
 
 h1 {
-  font-family: "Comfortaa", sans-serif;
+  /*font-family: "Comfortaa", sans-serif;*/
+  font-family: Garamond, serif;/*changed*/
   font-size: 24pt;
-  color: #000;
+  color: #000033;/*changed*/
   font-weight: 600;
   line-height: 1.6;
   margin-bottom: 4em;
@@ -587,16 +608,17 @@ h1 {
   -webkit-hyphens: none;
   -epub-hyphens: none;
   hyphens: none;
-  letter-spacing: 0pt;
+  letter-spacing: 0.2pt;/*changed*/
   word-spacing: 1px;
 }
 
 h1 strong { font-weight: normal;}
 
 h2, h2 strong, h1.article-bibliography-header  {
-font-family: "Comfortaa", helvetica neue, arial, sans-serif;
-font-size: 16pt;
-color: #000;
+/*font-family: "Comfortaa", helvetica neue, arial, sans-serif;*/
+font-family: Garamond, serif;/*changed*/
+font-size: 18pt;/*changed*/
+color: #000033;/*changed*/
 line-height: 1.5;
 text-align: left;
 line-height: 1.5;
@@ -613,15 +635,16 @@ h3, h3 strong,
 h4, h4 strong,
 h5,
 h6 {
-  font-family: "Comfortaa", helvetica neue, arial, sans-serif;
+  /*font-family: "Comfortaa", helvetica neue, arial, sans-serif;*/
+  font-family: Garamond, serif;/*changed*/
   margin-top: 1.5em;
-  color: #000;
+  color: #000033;/*changed*/
   font-weight: 600;
   line-height: 1.5;
 }
 
 h3 {
-  font-size: 13pt;
+  font-size: 14pt;/*changed*/
   margin-top: 20pt;
   page-break-inside: avoid;
   page-break-after: avoid;
@@ -629,7 +652,7 @@ h3 {
 }
 
 h4 {
-  font-size: 10.5pt;
+  font-size: 11pt;/*changed*/
   margin-top: 20pt;
   margin-bottom: 9pt;
   page-break-inside: avoid;
@@ -637,9 +660,10 @@ h4 {
 }
 
 h5 {
-  font-family: "Comfortaa", helvetica neue, arial, sans-serif;
+  /*font-family: "Comfortaa", helvetica neue, arial, sans-serif;*/
+  font-family: Garamond, serif;
   font-weight: 500;
-  font-size: 9pt;
+  font-size: 10pt;/*changed*/
   margin-top: 20pt;
   page-break-inside: avoid;
   page-break-after: avoid;
@@ -647,7 +671,7 @@ h5 {
 hr {
     border: 0;
     height: 1px;
-    background: #D0D0D0;
+    background: #b3b3cc;/*changed*/
     margin: 2em 0;
     /*background-image: linear-gradient(to right, #ccc, #333, #ccc);*/
     }
@@ -673,7 +697,8 @@ h1:before {
   font-size: 9.5pt;
   line-height: 10.8pt;
   list-style-position: outside;
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  /*font-family: "Mulish", helvetica neue, arial, sans-serif;*/
+  font-family: "Times New Roman", Times, serif;/*changed*/
 }
 
 .footnotes ol li p {
@@ -681,7 +706,8 @@ h1:before {
   font-size: 9.5pt;
   line-height: 10.75pt;
   word-wrap: break-word;
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  /*font-family: "Mulish", helvetica neue, arial, sans-serif;*/
+  font-family: "Times New Roman", Times, serif;/*changed*/
 }
 
 .footnotes ol li p a {
@@ -689,11 +715,12 @@ h1:before {
 }
 
 li[id*="fn"] {
-  color: black;
+  color: #000066;/*changed*/
   text-indent: 0;
   font-size: 9.5pt;
   margin-left: 1.3pc;
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  /*font-family: "Mulish", helvetica neue, arial, sans-serif;*/
+  font-family: "Times New Roman", Times, serif;/*changed*/
 }
 
 a.footnoteRef {
@@ -719,10 +746,11 @@ figure img {
 
 
 figure figcaption {
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  /*font-family: "Mulish", helvetica neue, arial, sans-serif;*/
+  font-family: "Times New Roman", Times, serif;/*changed*/
   margin-top: 0;
   font-style: normal;
-  color: black;
+  color: #000066;/*changed*/
   text-indent: 0;
   text-align: center;
   font-size: 8pt;
@@ -779,7 +807,7 @@ ul {
   margin-left: 0;
   margin-right: 0;
   padding-left: 25px;
-  font-size:  9.5pt;
+  font-size:  10pt;/*changed*/
   line-height: 15pt;
   hyphens: none;
 }
@@ -833,7 +861,8 @@ ol li::before {
 table {
   margin: 0 auto;
   width: 99% !important;
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  /*font-family: "Mulish", helvetica neue, arial, sans-serif;*/
+  font-family: "Times New Roman", Times, serif;/*changed*/
   background-size: 8pt;
   page-break-inside: avoid;
   margin-top: 9pt;
@@ -875,7 +904,7 @@ table td {
   border-left: 0;
   border-right: 0;
   /*text-align: right;*/
-  border-bottom: 1px solid rgb(231,231,231);
+  border-bottom: 1px solid rgb(194,194,214);/*changed*/
   padding: 0.5em;
 }
 
@@ -895,7 +924,8 @@ table li,
 table ol {
   font-size: 8pt;
   margin: 0;
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  /*font-family: "Mulish", helvetica neue, arial, sans-serif;*/
+  font-family: "Times New Roman", Times, serif;/*changed*/
   text-align: left;
   text-indent: 0;
 }
@@ -934,7 +964,7 @@ th {
   border-left: 0;
   border-right: 0;
   padding: 1em;
-  color: : black;
+  color: : #000066;/*changed*/
   font-style: italic;
 }
 
@@ -960,7 +990,7 @@ table + p + p {
 ul.numeric-decimals { counter-reset:section -1; list-style-type:none; list-style-position: outside; padding-left: 0; font-size: 9pt;}
 ul.numeric-decimals li { list-style-type:none;
   margin-top: 0.3em;
-  color: black;
+  color: #000066;/*changed*/
   margin-left: 0;
   margin-left: 0;
   text-indent: 0;
@@ -1025,7 +1055,8 @@ h2 + p /* h3+p*/ {
   position: absolute;
   bottom: 8mm;
   text-align: center;
-  font-family: "Mulish", helvetica neue, arial, sans-serif;
+  /*font-family: "Mulish", helvetica neue, arial, sans-serif;*/
+  font-family: "Times New Roman", Times, serif;/*changed*/
   font-size: 9pt;
   font-style: italic;
 }
@@ -1040,7 +1071,7 @@ ol.upper-latin {
   a {
     color: #000;
     text-decoration: none !important;
-    border-bottom: 1px dashed rgb(101,100,98);
+    border-bottom: 1px dashed rgb(82,82,122);/*changed*/
   }
 
   @page {
